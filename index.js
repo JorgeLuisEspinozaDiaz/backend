@@ -11,6 +11,7 @@ const COLORS = ['MORADO', 'AMARILLO', 'CELESTE', 'ROJO', 'VERDE', 'NARANJA']
 
 const rooms = new Map()
 
+
 function createRoom(id) {
   return {
     id: id.toUpperCase(),
